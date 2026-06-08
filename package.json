@@ -1,0 +1,47 @@
+{
+  "name": "@nativelayer.dev/wait-for-elements-ready",
+  "version": "0.0.1",
+  "description": "Reveal your page only when all Web Components are ready and functional. No timers, no polling, no FOUC.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE",
+    "wait-for-elements-ready-logo.jpg"
+  ],
+  "keywords": [
+    "web-components",
+    "custom-elements",
+    "ready",
+    "fouc",
+    "promise",
+    "lifecycle",
+    "orchestration",
+    "html",
+    "HTMLElement",
+    "MutationObserver",
+    "DOM"
+  ],
+  "license": "MIT",
+  "author": "ynck-chrl",
+  "homepage": "https://nativelayer.dev/docs/wait-for-elements-ready",
+  "bugs": {
+    "url": "https://github.com/nativeforge/wait-for-elements-ready/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nativeforge/wait-for-elements-ready"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
